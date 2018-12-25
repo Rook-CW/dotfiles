@@ -24,6 +24,7 @@ defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 defaults write com.apple.CrashReporter DialogType -string "none"
 
 #### Trackpad #####
+# 3本指でのドラッグを有効化
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -int 1
 defaults write com.apple.AppleMultitouchTrackpad Dragging -int 1
 
